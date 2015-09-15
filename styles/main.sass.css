@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: sans-serif; }
+  body section:first-child {
+    background-image: url(/images/bg-login-top.png);
+    height: 30em; }
+    body section:first-child div {
+      margin: 0 auto;
+      padding: 23em 0 0 32em; }
+  body section:nth-child(2) {
+    background-image: url(/images/bg-login.png);
+    height: 30em;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 1em;
+    border-top: solid #5E5F5B 0.5em; }
+    body section:nth-child(2) input:nth-child(2) {
+      margin-left: 3.2em;
+      margin-bottom: 1em; }
+  body input {
+    border: none;
+    height: 2em;
+    margin-left: 3em;
+    width: 20em;
+    border-radius: 6px;
+    padding: 1em;
+    outline: none;
+    font-size: 1em; }
+  body div {
+    padding-left: 19.5em; }
+  body button {
+    display: block;
+    background: -webkit-linear-gradient(top, #95C73E, #4D9907);
+    margin: 0 auto;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    width: 10em;
+    margin-top: 1em;
+    padding: 1em;
+    outline: none;
+    font-size: 1em; }
