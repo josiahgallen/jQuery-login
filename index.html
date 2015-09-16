@@ -6,19 +6,23 @@
 </head>
 <body>
 	<section>
-		<div>
+		<div id="pic">
 			<img src="/images/treemoLabs-logo.png">
 		</div>
 	</section>
 	<section>
-		<label>Username</label>
-		<input>
-		<br>
-		<label>Password</label>
-		<input type="password">
-		<div>
-			<button>Sign In</button>
-		</div>
+		<form>
+			<label>Username</label>
+			<input id="user">
+			<br>
+			<label>Password</label>
+			<input type="password" id="password">
+			<div>
+				<button>Sign In</button>
+			</div>
+			<div id="error1" class="error"></div>
+			<div id="error2" class="error"></div>
+		</form>
 	</section>
 
 

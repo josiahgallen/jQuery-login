@@ -7,9 +7,11 @@ body {
 		background-image: url(/images/bg-login-top.png);
 		height: 30em;
 
-		div {
+		#pic {
 			margin: 0 auto;
-			padding: 23em 0 0 32em;
+			padding: 0;
+			text-align: center;
+			padding-top: 24em;
 		}
 	}
 
@@ -55,5 +57,11 @@ body {
 		padding: 1em;
 		outline: none;
 		font-size: 1em;
+	}
+
+	.error {
+		color: white;
+		margin: 0 auto;
+		text-align: center;
 	}
 }

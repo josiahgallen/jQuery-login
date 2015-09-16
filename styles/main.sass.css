@@ -4,9 +4,11 @@ body {
   body section:first-child {
     background-image: url(/images/bg-login-top.png);
     height: 30em; }
-    body section:first-child div {
+    body section:first-child #pic {
       margin: 0 auto;
-      padding: 23em 0 0 32em; }
+      padding: 0;
+      text-align: center;
+      padding-top: 24em; }
   body section:nth-child(2) {
     background-image: url(/images/bg-login.png);
     height: 30em;
@@ -41,3 +43,7 @@ body {
     padding: 1em;
     outline: none;
     font-size: 1em; }
+  body .error {
+    color: white;
+    margin: 0 auto;
+    text-align: center; }
